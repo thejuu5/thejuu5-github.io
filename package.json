@@ -1,0 +1,20 @@
+{
+  "name": "thejaswini-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio homepage",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint js/**/*.js",
+    "format": "prettier --write \"**/*.{html,css,js}\""
+  },
+  "author": "Thejaswini",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "globals": "^15.0.0",
+    "@eslint/js": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0"
+  }
+}
