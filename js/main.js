@@ -2,7 +2,7 @@ const rotatorEl = document.getElementById("heroRotator");
 
 const greetings = [
   { text: "Hello, I'm" },
-  { text: "console.log(\"Hey, I'm\");", isCode: true },
+  { text: 'console.log("Hey, I\'m");', isCode: true },
   { text: "Hola, soy", lang: "es" },
 ];
 
@@ -36,3 +36,29 @@ if (rotatorEl) {
   applyGreeting(greetings[currentIndex]);
   setInterval(rotateGreeting, ROTATE_EVERY_MS);
 }
+
+const timelineItems = document.querySelectorAll("[data-timeline-item]");
+
+timelineItems.forEach((item) => {
+  const toggle = item.querySelector(".timeline-toggle");
+  if (!toggle) return;
+
+  toggle.addEventListener("click", () => {
+    const isOpen = item.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(isOpen));
+  });
+});
+
+function highlightHashTarget() {
+  const hash = window.location.hash.replace("#", "");
+  if (!hash) return;
+
+  const target = document.getElementById(hash);
+  if (!target) return;
+
+  target.classList.add("section-highlight");
+  setTimeout(() => target.classList.remove("section-highlight"), 900);
+}
+
+window.addEventListener("DOMContentLoaded", highlightHashTarget);
+window.addEventListener("hashchange", highlightHashTarget);

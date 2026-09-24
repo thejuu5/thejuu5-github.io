@@ -1,6 +1,7 @@
 {
   "name": "thejaswini-portfolio",
   "version": "1.0.0",
+  "type": "module",
   "description": "Personal portfolio homepage",
   "main": "index.html",
   "scripts": {
