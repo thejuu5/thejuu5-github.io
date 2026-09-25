@@ -35,18 +35,18 @@ Course Link: `https://johnguerra.co/classes/webDevelopment_online_fall_2026/`
 
 ### Design Document
 
-- [View Design Document](https://github.com/thejuu5/thejuu5-github.io/blob/main/Design Document.pdf)
+- [View Design Document](https://github.com/thejuu5/thejuu5-github.io/blob/main/Design_Document.pdf)
 
 
 ### Screenshots
 
-![Home Page](image.png)
+![Home Page](images/home_page_screenshot.png)
 
-![About Me](image-1.png)
+![About Me](images/about_screenshot.png)
 
-![Education & Experience](image-2.png)
+![Education & Experience](images/education_screenshot.png)
 
-![Contact](image-3.png)
+![Contact](images/contact_screenshot.png)
 
 
 ## Technologies Used
