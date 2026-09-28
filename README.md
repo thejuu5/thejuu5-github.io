@@ -29,7 +29,7 @@ Course Link: `https://johnguerra.co/classes/webDevelopment_online_fall_2026/`
 
 ## Submission URL
 
-- Deployed URL (GitHub Pages): 
+- Deployed URL (GitHub Pages): https://thejuu5.github.io/thejuu5-github.io/
 - Presentation (Google Slides): https://docs.google.com/presentation/d/1_-ByEgq43P4vHfF_GhlKXdv9hYGdOeKNo-_5ObdJTHM/edit?usp=sharing
 - Video Demonstration: https://youtu.be/a6HAO-U1-eo
 
@@ -131,11 +131,7 @@ npm run format
 ```
 
 ### 5. View the deployed website
-
-
-## Demo Video
-
-
+http://127.0.0.1:5500/index.html
 
 ## Image and Resource Attribution
 
