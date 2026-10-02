@@ -131,7 +131,7 @@ npm run format
 ```
 
 ### 5. View the deployed website
-http://127.0.0.1:5500/index.html
+http://127.0.0.1:5500/index.html  //This is your local server link, It will only run locally. Include the live link here
 
 ## Image and Resource Attribution
 
